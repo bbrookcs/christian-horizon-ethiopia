@@ -1,5 +1,4 @@
 <script>
-    import Header from '../header.svelte';
     import { scrollAnimation } from '$lib/scrollAnimation';
 </script>
 
@@ -44,7 +43,7 @@
     .about-container {
         display: flex;
         gap: 64px;
-        padding: 0 80px;
+        padding: 120px 80px 4rem;
         max-width: 1440px;
         margin: 0 auto;
         min-height: calc(100vh - 60px);
@@ -121,9 +120,8 @@
     @media (max-width: 768px) {
         .about-container {
             flex-direction: column;
-            padding: 24px;
+            padding: 100px 24px 24px;
             gap: 32px;
-            margin-top: 60px;
             min-height: auto;
         }
 
@@ -150,7 +148,7 @@
     .about-container {
         display: flex;
         gap: 64px;
-        padding: 0 80px;
+        padding: 120px 80px 4rem;
         max-width: 1440px;
         margin: 0 auto;
         min-height: calc(100vh - 60px);
@@ -190,9 +188,8 @@
     @media (max-width: 768px) {
         .about-container {
             flex-direction: column;
-            padding: 24px;
+            padding: 100px 24px 24px;
             gap: 32px;
-            margin-top: 60px;
             min-height: auto;
         }
 

@@ -19,7 +19,7 @@
 				</p>
 			</div>
 			<div class="hero-image">
-				<img src="/team.jpg" alt="HEDS staff and community members together" />
+				<img src="/fi.jpeg" alt="HEDS field team working with community members" />
 			</div>
 		</div>
 	</section>
@@ -105,7 +105,7 @@
 					</div>
 				</div>
 				<div class="initiative-card">
-					<img src="/camp2.jpg" alt="Support for internally displaced persons" />
+					<img src="/camp3.jpg" alt="Support for internally displaced persons" />
 					<div class="card-content">
 						<h3>Internally Displaced Persons (IDPs)</h3>
 						<p>
@@ -116,7 +116,7 @@
 					</div>
 				</div>
 				<div class="initiative-card">
-					<img src="/camp3.jpg" alt="Returnees and host communities" />
+					<img src="/aboutiimg1.jpg" alt="Returnees and host communities consultation" />
 					<div class="card-content">
 						<h3>Returnees &amp; Host Communities</h3>
 						<p>
