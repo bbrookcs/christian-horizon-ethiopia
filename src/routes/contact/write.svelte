@@ -13,10 +13,10 @@
             </div>
         </div>
         <div class="image-stack">
-            <img src="/img5.jpg" alt="Community Support" class="stack-img" />
-            <img src="/img6.jpg" alt="Children Activities" class="stack-img" />
-            <img src="/img7.jpg" alt="Support Programs" class="stack-img" />
-            <img src="/img8.jpg" alt="Education Impact" class="stack-img" />
+            <img src="/img1.jpg" alt="Students in classroom" class="stack-img" />
+            <img src="/schoolimg1.jpg" alt="Graduation ceremony" class="stack-img" />
+            <img src="/img3.jpg" alt="Children in community" class="stack-img" />
+            <img src="/camp1.jpg" alt="Community engagement" class="stack-img" />
         </div>
     </div>
 </section>

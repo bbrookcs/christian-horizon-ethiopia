@@ -9,27 +9,15 @@
   <main>
     <section class="education-hero">
       <h1>HEDS Education Program</h1>
-      <p>HEDS has been breaking down barriers to education across the Oromia Region. 
-        Through inclusive learning environments, trained educators, and community-based support, 
+      <p>HEDS has been breaking down barriers to education across the Oromia Region.
+        Through inclusive learning environments, trained educators, and community-based support,
         we ensure that every child regardless of ability, background, or location has the opportunity to learn, grow, and thrive.</p>
+      <p class="academy-note">
+        <strong>Note:</strong> HEDS also operates <a href="/horizonschool">Horizons Academy</a>, a separate, self-sustaining private school serving 1,278+ students across KG through Grade 8. The Education Program described here is a distinct community-based program focused on inclusive education across the wider Oromia Region.
+      </p>
       
       <div class="hero-image">
         <img src="./eduimg.jpg" alt="HEDS Education Program Students">
-      </div>
-    </section>
-
-    <section class="stats-section">
-      <div class="stat-card">
-        <h3>28,640+</h3>
-        <p>Children Reached</p>
-      </div>
-      <div class="stat-card">
-        <h3>1,240+</h3>
-        <p>Teachers Trained</p>
-      </div>
-      <div class="stat-card">
-        <h3>34</h3>
-        <p>Years of Service</p>
       </div>
     </section>
 
@@ -133,6 +121,24 @@
     max-width: 800px;
     margin: 0 auto 2rem;
     line-height: 1.6;
+  }
+
+  .academy-note {
+    font-size: 0.95rem !important;
+    background: #EFF6FF;
+    border-left: 4px solid #004197;
+    padding: 1rem 1.5rem;
+    border-radius: 0 8px 8px 0;
+    color: #374151 !important;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto 2rem !important;
+  }
+
+  .academy-note a {
+    color: #004197;
+    font-weight: 600;
+    text-decoration: underline;
   }
 
   .hero-image {

@@ -3,7 +3,7 @@
 
   const partners = [
     { src: '/karis.png', alt: 'Karis Disability Services' },
-    { src: '/lmi.png', alt: 'Leadership Management International' },
+    { src: '/newLMIlogo.jpg', alt: 'Leadership Management International' },
     { src: '/wise.png', alt: 'WISE' },
     { src: '/arsi.png', alt: 'ARSi' },
     { src: '/cosap.jpeg', alt: 'COSAP' },
@@ -14,7 +14,7 @@
 
   const primaryPartners = [
     { src: '/karis.png', alt: 'Karis Disability Services' },
-    { src: '/lmi.png', alt: 'LM International (LMI)' },
+    { src: '/newLMIlogo.jpg', alt: 'LM International (LMI)' },
     { src: '/welthungerhilfe.png', alt: 'Welthungerhilfe (WHH)' }
   ];
 </script>

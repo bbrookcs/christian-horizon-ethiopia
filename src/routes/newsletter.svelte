@@ -9,7 +9,7 @@
       <h2>Stay updated</h2>
       <p>
         Subscribe to our newsletter and stay informed about our programs,
-        impact, and ways you can support Christian Horizons Ethiopia.
+        impact, and ways you can support Horizons Ethiopia Development Services.
       </p>
       <div class="form">
         <input type="email" placeholder="Your email address" />

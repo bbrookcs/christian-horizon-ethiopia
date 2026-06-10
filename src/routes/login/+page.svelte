@@ -15,7 +15,7 @@
 </script>
 
 <svelte:head>
-  <title>Login | Christian Horizons Ethiopia</title>
+  <title>Login | Horizons Ethiopia Development Services</title>
 </svelte:head>
 
 <div class="login-container">

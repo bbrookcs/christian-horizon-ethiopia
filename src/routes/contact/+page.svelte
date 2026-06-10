@@ -19,7 +19,7 @@
                 </p>
             </div>
             <div class="contact-image">
-                <img src="/team.jpg" alt="Christian Horizons Community" />
+                <img src="/112233.jpg" alt="HEDS team at work" class="main-contact-img" />
             </div>
         </section>
     </div>
@@ -32,13 +32,15 @@
                 <p>Reach our team at our Asella office during working hours. We aim to respond to all inquiries within 1–2 business days.</p>
                 <div class="contact-details">
                     <p class="phone">
-                        <i class="fas fa-phone-alt"></i> +251912345678
+                        <i class="fas fa-phone-alt"></i> +251 911 159 428 / +251 920 386 606
                     </p>
-                    <p class="office-hours">(Call us during office hours: Monday to Friday, 9 AM - 5 PM)</p>
+                    <p class="office-hours">(Monday to Friday, 9 AM – 5 PM)</p>
                     <p class="location">
-                        <i class="fas fa-map-marker-alt"></i> Assela, Oromia, Ethiopia
+                        <i class="fas fa-map-marker-alt"></i> Welkessa Kebele (10), Asella Town, Arsi Zone, Oromia, Ethiopia
                     </p>
-                    <p class="email">contact@che.org</p>
+                    <p class="location">
+                        <i class="fas fa-mail-bulk"></i> P.O. Box 370, Asella, Ethiopia
+                    </p>
                 </div>
                 
             </div>
@@ -105,11 +107,10 @@
         overflow: hidden;
     }
 
-    .contact-image img {
+    .main-contact-img {
         width: 100%;
         height: 360px;
         object-fit: cover;
-        object-position: center;
         border-radius: 12px;
         display: block;
     }

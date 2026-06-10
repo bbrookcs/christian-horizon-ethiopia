@@ -3,26 +3,79 @@
 </script>
 <section class="leadership-container">
     <div class="container" use:scrollAnimation={{ animation: 'slideRight', delay: 300 }}>
-        <div class="tag">Leadership Team & Collaborations</div>
-        <h2>Leadership</h2>
+        <div class="tag">Our Team</div>
+        <h2>Leadership & Staff</h2>
         <p class="description">
-            Our leadership team is driven by a deep commitment to inclusion, accountability, and community transformation. Under the direction of Executive Director Dr. Megersa Dabessa, HEDS delivers six interconnected programs reaching Ethiopia's most vulnerable guided by 34 years of community trust and a bold vision for 2030. </p>
+            Our team is driven by a deep commitment to inclusion, accountability, and community transformation. Under the direction of Executive Director Dr. Megersa Dabessa, HEDS delivers six interconnected programs reaching Ethiopia's most vulnerable, guided by over 34 years of community trust and a bold vision for 2030.
+        </p>
 
+        <!-- Leadership -->
         <div class="team-grid" use:scrollAnimation={{ animation: 'slideUp', delay: 400 }}>
-            <div class="team-member">
-                <img src="./megersa.jpg" alt="Dr. Megersa Dabessa" />
-                <h3>Dr. Megersa Dabessa</h3>
-                <p>Executive Director</p>
+            <div class="team-card">
+                <div class="team-photo-wrap">
+                    <img src="/drmegersaa.jpg" alt="Dr. Megersa Dabessa" />
+                </div>
+                <div class="team-info">
+                    <h3>Dr. Megersa Dabessa</h3>
+                    <span class="role-tag">Executive Director</span>
+                </div>
             </div>
-            <div class="team-member">
-                <img src="./led.png" alt="Tewabe Habtamu" />
-                <h3>Tewabe Habtamu</h3>
-                <p>Finance & HR Manager</p>
+            <div class="team-card">
+                <div class="team-photo-wrap">
+                    <img src="/tewabe.jpg" alt="Mr. Tewabe Habtamu" />
+                </div>
+                <div class="team-info">
+                    <h3>Mr. Tewabe Habtamu</h3>
+                    <span class="role-tag">Admin &amp; Finance Director</span>
+                </div>
             </div>
-            <div class="team-member">
-                <img src="./led.png" alt="Team member" />
-                <h3>Team member</h3>
-                <p>Role description</p>
+            <div class="team-card">
+                <div class="team-photo-wrap">
+                    <img src="/led.png" alt="Mr. Abie Dassie" />
+                </div>
+                <div class="team-info">
+                    <h3>Mr. Abie Dassie</h3>
+                    <span class="role-tag">Horizons Academy Director</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Staff -->
+        <div class="staff-list" use:scrollAnimation={{ animation: 'slideUp', delay: 500 }}>
+            <div class="staff-card">
+                <img src="/led.png" alt="Mr. Gemeda Jemal" class="staff-photo" />
+                <div class="staff-info">
+                    <h4>Mr. Gemeda Jemal</h4>
+                    <p>Project Coordinator</p>
+                </div>
+            </div>
+            <div class="staff-card">
+                <img src="/led.png" alt="Mr. Girmaye Tamirat" class="staff-photo" />
+                <div class="staff-info">
+                    <h4>Mr. Girmaye Tamirat</h4>
+                    <p>Technology &amp; Digital Communications Coordinator</p>
+                </div>
+            </div>
+            <div class="staff-card">
+                <img src="/led.png" alt="Mr. Lidetu Tesfaye" class="staff-photo" />
+                <div class="staff-info">
+                    <h4>Mr. Lidetu Tesfaye</h4>
+                    <p>Communication Officer</p>
+                </div>
+            </div>
+            <div class="staff-card">
+                <img src="/led.png" alt="Mr. Daniel Abebe" class="staff-photo" />
+                <div class="staff-info">
+                    <h4>Mr. Daniel Abebe</h4>
+                    <p>General Services &amp; Facility Officer</p>
+                </div>
+            </div>
+            <div class="staff-card">
+                <img src="/led.png" alt="Mrs. Liya Fekadu" class="staff-photo" />
+                <div class="staff-info">
+                    <h4>Mrs. Liya Fekadu</h4>
+                    <p>Cashier</p>
+                </div>
             </div>
         </div>
 
@@ -34,7 +87,7 @@
                 </div>
                 <div class="partner-logos">
                     <img src="./karis.png" alt="Karis Disability Services" />
-                    <img src="./lmi.png" alt="LMI International" />
+                    <img src="/newLMIlogo.jpg" alt="LMI International" />
                     <img src="./welthungerhilfe.png" alt="WISE" />
                 </div>
             </div>
@@ -106,37 +159,108 @@
         margin-bottom: 4rem;
     }
 
+    /* Leadership cards */
     .team-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
-        margin-bottom: 6rem;
+        margin-bottom: 3rem;
     }
 
-    .team-member {
-        text-align: left;
-    }
-
-    .team-member img {
-        width: 100%;
-        aspect-ratio: 1 / 1;
-        height: auto;
-        object-fit: cover;
-        object-position: center center;
+    .team-card {
+        background: white;
+        border: 1px solid #e5e7eb;
         border-radius: 1rem;
-        margin-bottom: 1.5rem;
+        overflow: hidden;
+        box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+        transition: box-shadow 0.3s ease, transform 0.3s ease;
+    }
+
+    .team-card:hover {
+        box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+        transform: translateY(-4px);
+    }
+
+    .team-photo-wrap {
+        width: 100%;
+        aspect-ratio: 3 / 3.2;
+        overflow: hidden;
+        background: #f3f4f6;
+    }
+
+    .team-photo-wrap img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center top;
         display: block;
     }
 
-    .team-member h3 {
-        font-size: 1.5rem;
-        color: #000;
-        margin-bottom: 0.5rem;
+    .team-info {
+        padding: 1.25rem 1.5rem 1.5rem;
+        border-top: 3px solid #004197;
     }
 
-    .team-member p {
-        color: #666;
-        font-size: 1rem;
+    .team-info h3 {
+        font-size: 1.15rem;
+        color: #00093e;
+        margin-bottom: 0.5rem;
+        font-weight: 700;
+    }
+
+    .role-tag {
+        display: inline-block;
+        background: #EFF6FF;
+        color: #004197;
+        font-size: 0.82rem;
+        font-weight: 600;
+        padding: 0.3rem 0.8rem;
+        border-radius: 50px;
+    }
+
+    /* Staff horizontal list */
+    .staff-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        margin-bottom: 5rem;
+    }
+
+    .staff-card {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        background: #f8f9fa;
+        border-radius: 0.75rem;
+        padding: 1rem 1.25rem;
+        border: 1px solid #e5e7eb;
+        transition: background 0.2s ease;
+    }
+
+    .staff-card:hover {
+        background: #EFF6FF;
+    }
+
+    .staff-photo {
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+        object-fit: cover;
+        flex-shrink: 0;
+        border: 2px solid #DBEAFE;
+    }
+
+    .staff-info h4 {
+        font-size: 0.95rem;
+        font-weight: 700;
+        color: #00093e;
+        margin-bottom: 0.2rem;
+    }
+
+    .staff-info p {
+        font-size: 0.82rem;
+        color: #6B7280;
+        margin: 0;
     }
 
     .partners-section {
@@ -168,7 +292,8 @@
     }
 
     .partner-logos img {
-        height: 100px;
+        height: 60px;
+        max-width: 150px;
         object-fit: contain;
     }
 
@@ -176,6 +301,10 @@
         .team-grid {
             grid-template-columns: repeat(2, 1fr);
             gap: 1.5rem;
+        }
+
+        .staff-list {
+            grid-template-columns: 1fr;
         }
 
         .partners-content {
@@ -209,6 +338,10 @@
         }
 
         .team-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .staff-list {
             grid-template-columns: 1fr;
         }
 

@@ -181,7 +181,7 @@
     </div>
 </section>
 <svelte:head>
-  <title>Christian Horizons Ethiopia</title>
+  <title>Horizons Ethiopia Development Services</title>
 </svelte:head>
 <Who />
 <OurProgram />
